@@ -28,12 +28,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7z-Sq-mPs">
+                                <state key="normal" title="Counting button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qq3-Ux-Ski" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0yc-dx-63L"/>
+                            <constraint firstItem="I7z-Sq-mPs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PIT-Pp-Rqa"/>
                             <constraint firstItem="qq3-Ux-Ski" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="TRN-3r-iiA"/>
                             <constraint firstItem="Sg4-lV-AHy" firstAttribute="top" secondItem="qq3-Ux-Ski" secondAttribute="bottom" constant="50" id="etR-18-Rvm"/>
+                            <constraint firstItem="I7z-Sq-mPs" firstAttribute="top" secondItem="Sg4-lV-AHy" secondAttribute="bottom" constant="100" id="rcD-jN-OuN"/>
                             <constraint firstItem="Sg4-lV-AHy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zIA-MB-RCx"/>
                         </constraints>
                     </view>
