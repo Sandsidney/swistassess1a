@@ -16,6 +16,21 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.yellow
     }
 
+    var countingNum = 0
+    
+    @IBAction func buttom1(_ sender: UIButton) {
+        countingNum = countingNum+1
+        if (countingNum == 10) {
+            self.view.backgroundColor = UIColor.gray
+            
+        } else if (countingNum >= 15 ){
+            
+            self.view.backgroundColor = UIColor.yellow
+            
+        }
+        print(countingNum)
+        
+    }
     
     @IBOutlet var myLabel2: [UILabel]!
     
